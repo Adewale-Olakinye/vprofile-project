@@ -1,6 +1,6 @@
 FROM eclipse-temurin:11-jdk AS BUILD_IMAGE
 
-RUN apt update && apt install maven git -y 
+RUN apt update && apt install maven -y 
 
 RUN git clone https://github.com/Adewale-Olakinye/vprofile-project.git
 
